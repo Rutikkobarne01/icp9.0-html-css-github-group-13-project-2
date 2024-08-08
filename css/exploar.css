@@ -1,0 +1,51 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238));
+    /* margin: 0;
+    padding: 0; */
+ }
+
+ .exploar {
+    margin: 0;
+    height: 350px;
+    width: auto;
+    background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
+    border: 1px solid rgb(176, 185, 237);
+    border-radius: 5px;
+
+ }
+
+ .heading {
+    margin-left: 4%;
+ }
+
+ .para {
+    margin-left: 4%;
+ }
+
+ .price {
+    margin-left: 4%;
+    font-size: 30px;
+    color: rgb(6, 40, 57);
+ }
+
+ .text {
+    font-size: 0.8em;
+    margin-top: 1%;
+    color: rgb(27, 12, 199);
+ }
+
+ .btn {
+    width: 20%;
+    height: 45px;
+    /* background: #162938; */
+    margin-left: 4%;
+    background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220));
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 500;
+  }
