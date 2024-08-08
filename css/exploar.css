@@ -1,37 +1,46 @@
  body {
     font-family: Arial, sans-serif;
     background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238));
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;  */
  }
 
  .exploar {
-    margin: 0;
-    height: 350px;
-    width: auto;
+    margin: 20px;
+    height: auto;
+    /* width: auto; */
+    max-width: 800px;
     background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
     border: 1px solid rgb(176, 185, 237);
-    border-radius: 5px;
-
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
  }
 
  .heading {
-    margin-left: 4%;
+    /* margin-left: 4%; */
+    margin: 0 0 10px 4%;
  }
 
  .para {
-    margin-left: 4%;
+    /* margin-left: 4%; */
+    margin: 0 0 10px 4%;
  }
 
  .price {
-    margin-left: 4%;
+    /* margin-left: 4%; */
+    margin: 0 0 10px 4%;
     font-size: 30px;
     color: rgb(6, 40, 57);
  }
 
  .text {
     font-size: 0.8em;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     color: rgb(27, 12, 199);
  }
 
@@ -39,7 +48,8 @@
     width: 180px;
     height: 45px;
     /* background: #162938; */
-    margin-left: 4%;
+    /* margin-left: 4%; */
+    margin: 10px 4%;
     background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220));
     border: none;
     outline: none;
@@ -50,9 +60,51 @@
     font-weight: 500;
   }
 
-  .container{
-    height: 150px;
-    width: auto;
+  .img {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .img img {
+    height: 300px;
+    width: 450px;
+    border: 1px solid rgb(176, 185, 237);
+    border-radius: 10px;
+  }
+
+  .con{
+    height: auto;
+    /* width: auto; */
+    max-width: 800px;
+    padding: 20px;
     background-color: rgb(232, 235, 237);
     font-size: 1.5em;
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .header {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #666;
   }
