@@ -159,3 +159,32 @@
 
   }
   
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .btn1 {
+    width: 180px;
+    height: 45px;
+    background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220));
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 500;
+  }
+
+
+  .item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2% ;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
