@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: #ccccb3;
 }
 .heading{
     color: black;
@@ -29,14 +29,16 @@ body{
     margin-top:150px;
     margin-bottom: 190px;
     padding-top: 100px;
-    padding-left: 30px;
-    background-color: aqua;
+    padding-left: 25px;
+    
 }
 .missions{
     
-    height:600px;
+    height:408px;
     width: 650px;
     margin-top: 120px;
-    border: solid 2px black;
+    border: solid 10px #adad85;
+    border-radius: 10px;
+    margin-right: 10px;
     
 }
