@@ -56,9 +56,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    align-items: ;
-    height: 800px;
-    margin-left: 30px;
+    flex-wrap: wrap;
+    height: auto;
+   width: 100%;
     
 }
 .icon{
@@ -66,33 +66,23 @@ body{
     width: 100px;
     background-color: antiquewhite;
     border-radius: 10px;
-    margin-left: 0px;
-    background-color: aquamarine;
-   
     
+    background-color: aquamarine;`
 }
 
 .discription-first{
-    margin-right: 90px;
-    padding-left:20px;
-    padding-right: 0px;
-  background-color: aqua; 
-  height:40px;   
+   padding: 10px;
+  height:90px;   
+  width: 600px;
 }
-.icon-image{
+.card{
+    width: 495px;
+    height: 120px;
+    background-color: peru;
+    display: flex;
+    margin:60px;
+}
+.image-1{
     height: 100px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: aquamarine;
-    position:absolute;
-    margin-left: 70px;
-    
-   
-}
-.discription-second{
-margin-right:0px;
-  background-color: orange; 
-  padding-left: 130px; 
-  margin-left:75px; 
-  height:40px;  
+    width: 100px;   
 }
