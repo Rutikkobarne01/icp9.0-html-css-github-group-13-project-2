@@ -34,14 +34,18 @@ body{
     
 }
 .missions{
-    
-    height:408px;
-    width: 650px;
+    height:100px;
+    width: 80px;
     margin-top: 120px;
     border: solid 10px #adad85;
     border-radius: 10px;
     margin-right: 10px;
-    
+}
+.goals{
+    height: 500px;
+    width: 450px;
+    display: flex;
+    margin:60px;
     
 }
 .new-heading{
