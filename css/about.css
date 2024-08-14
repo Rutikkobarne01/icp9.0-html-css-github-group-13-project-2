@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: end;
-    height: 800px;
+    height: 650px;
 }
 .paragraph2{
     font-size: 20px;
@@ -30,6 +30,7 @@ body{
     margin-bottom: 190px;
     padding-top: 100px;
     padding-left: 25px;
+    
     
 }
 .missions{
@@ -41,4 +42,57 @@ body{
     border-radius: 10px;
     margin-right: 10px;
     
+    
+}
+.new-heading{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.image-conatiner{
+    background-color: orchid;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: ;
+    height: 800px;
+    margin-left: 30px;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-left: 0px;
+    background-color: aquamarine;
+   
+    
+}
+
+.discription-first{
+    margin-right: 90px;
+    padding-left:20px;
+    padding-right: 0px;
+  background-color: aqua; 
+  height:40px;   
+}
+.icon-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    position:absolute;
+    margin-left: 70px;
+    
+   
+}
+.discription-second{
+margin-right:0px;
+  background-color: orange; 
+  padding-left: 130px; 
+  margin-left:75px; 
+  height:40px;  
 }
