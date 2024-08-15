@@ -28,25 +28,30 @@ body{
     font-size: 20px;
     margin-top:150px;
     margin-bottom: 190px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 25px;
+   
+    margin-right: 20px;
     
     
 }
-.missions{
-    height:100px;
-    width: 80px;
-    margin-top: 120px;
-    border: solid 10px #adad85;
-    border-radius: 10px;
-    margin-right: 10px;
-}
+
+
 .goals{
-    height: 500px;
-    width: 450px;
-    display: flex;
-    margin:60px;
+    height: 400px;
+    width: 400px;
+   padding-left: 20px;
+   padding-right: 150px;
+   margin-right: 80px;
+   padding-top: 0px;
     
+}
+.mission{
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    border: solid 10px burlywood;
 }
 .new-heading{
     color: black;
@@ -56,7 +61,7 @@ body{
 }
 
 .image-conatiner{
-    background-color: orchid;
+    
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -68,10 +73,8 @@ body{
 .icon{
     height: 100px;
     width: 100px;
-    background-color: antiquewhite;
+    background-color: #ffffe6;
     border-radius: 10px;
-    
-    background-color: aquamarine;`
 }
 
 .discription-first{
@@ -82,7 +85,6 @@ body{
 .card{
     width: 495px;
     height: 120px;
-    background-color: peru;
     display: flex;
     margin:60px;
 }
