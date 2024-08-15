@@ -1,3 +1,4 @@
+
  body {
     font-family: Arial, sans-serif;
     background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238));
@@ -110,7 +111,8 @@
   }
 
   .heading1 {
-    margin: 4% 0 10px 4%;
+    /* margin: 4% 0 10px 4%; */
+    text-align: center;
   }
 
   .heading2 {
@@ -177,6 +179,11 @@
     font-weight: 500;
   }
 
+  .btn1:hover {
+    background-image: linear-gradient(to right, rgb(141, 155, 241), rgb(139, 220, 245));
+    color: black;
+  }
+
 
   .item1 {
     display: flex;
@@ -186,5 +193,6 @@
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
   }
 
