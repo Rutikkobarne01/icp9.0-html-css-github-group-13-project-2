@@ -92,3 +92,9 @@ body{
     height: 100px;
     width: 100px;   
 }
+.link{
+font-size: 40px;
+margin-left: 40px;
+text-decoration: none;
+color:#283e3e;
+}
