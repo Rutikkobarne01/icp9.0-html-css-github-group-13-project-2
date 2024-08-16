@@ -119,11 +119,12 @@
     margin: 0 0 10px 4%;
     font-size: 1.4em;
   }
-
-  .container1 {
+    
+  
+  .container1 { 
     display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
   }
 
   .other {
@@ -163,7 +164,7 @@
   
   .container2 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 
   .btn1 {
@@ -189,10 +190,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 2% ;
+    margin: 0.8% 0.8% ;
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
   }
-
