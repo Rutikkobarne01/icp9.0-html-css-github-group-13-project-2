@@ -1,0 +1,381 @@
+body{
+  margin:0;
+  padding:0;
+}
+/*.text{
+  background-color:#B2E6CE;
+  text-align:right;
+  font-size:20px;
+  font-weight:bold;
+}*/
+.no-underline{
+  text-decoration:none;
+}
+.main{
+  margin-top:50px;
+  margin-left:-90px;
+}
+/*.image1{
+  border:2px solid black;
+  margin-left:-110px;
+  margin-top:30px;
+  box-shadow:0 0 10px #45A0E6;
+  display:block;
+ 
+}
+  
+.image2{
+  border:2px solid red;
+  margin-top:15px;
+  margin-left:-220px;
+  border:2px solid black;
+  box-shadow:0 0 10px #45A0E6;
+ 
+}
+.image3{
+  border:2px solid black;
+  margin-left:15px;
+  box-shadow:0 0 10px #45A0E6;
+}
+.image4{
+  border:2px solid black;
+  margin-left:-110px;
+  margin-top:10px;
+  box-shadow:0 0 10px #45A0E6;
+}*/
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+.left-side{
+margin-left:80px;
+}
+.margin-right{
+
+  
+
+}
+.heading{
+ margin-top:80px;
+  font-size:40px;
+  text-align:justify;
+  font-weight:bold;
+  margin-left:20px;
+}
+.for-span{
+  background-color:/*#E0FFFF,#4CAF50,#8BC34A*/#FF9900;
+  
+  
+}
+.para{
+  color:navy;
+  margin-top:10px;
+  margin-left:30px;
+  font-size:25px;
+  font-weight:bold;
+}
+.para1{
+  color:navy;
+  margin-top:15px;
+  margin-left:90px;
+  font-size:22px;
+  font-weight:bold;
+}
+.Enroll-btn{
+  background-color:/*#87CEEB #4CAF50,#8BC34A #FF9900*/#3B3F54;
+  color:white;
+  font-size:25px;
+  margin-left:120px;
+  margin-top:20px;
+  width:180px;
+  height:40px;
+  border:none;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  border-radius:10px 12px;
+  /*-shadow:0 0 10px black;*/
+}
+
+/*.heading2{
+   /*background-color:#FF9900 #B1B1B1 background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));;
+  margin-top:50px;
+  height:40px;
+  padding:5px;
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+  font-family:'Times New Roman', Times, serif;
+}*/
+.Job-Oriented-Domains{
+  /* background-color:#E5E5E5;*/
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   flex-wrap:wrap;
+   
+ }
+
+.card1{
+  background-color: white;
+    width: 160px;
+    height: 160px;
+    margin: 2% 20px;
+    border: 2px solid black;
+    border-radius: 10px 12px;
+  /*background-color:white;
+  width:160px;
+  height:160px;
+  margin-left:20px;
+  margin-top:20px;
+  margin:20px;
+  /*margin:4% 20px;
+  border:2px solid white;
+  border:2px solid black;
+  border-radius:10px 12px;*/
+}
+.picture1{
+ margin-top:20px;
+  margin-left:40px;
+  
+  }
+  .text1{
+    margin-top:3px;
+    text-align:center;
+    
+    
+  }
+  .no-underline{
+    text-decoration:none;
+  }
+  .para-explore{
+    margin-top:2px;
+    text-align:center;
+  }
+/*
+.card2{
+  background-color:white;
+  width:160px;
+  height:160px;
+  margin-left:20px;
+  margin-top:20px;
+  margin:15px;
+  border:2px solid white;
+  border:2px solid black;
+  border-radius:10px 12px;
+}
+
+.picture2{
+  margin-top:20px;
+  margin-left:45px;
+  
+
+
+.card3{
+  background-color:white;
+  width:160px;
+  height:160px;
+  margin-left:20px;
+  margin-top:20px;
+  margin:15px;
+  border:2px solid white;
+  border:2px solid black;
+  border-radius:10px 12px;
+}
+/*
+.picture3{
+  margin-top:20px;
+  margin-left:40px;
+}
+.card4{
+  background-color:white;
+  width:160px;
+  height:160px;
+  margin-left:20px;
+  margin-top:20px;
+  margin:15px;
+  border:2px solid white;
+  border:2px solid black;
+  border-radius:10px 12px;
+}
+/*
+.picture4{
+  margin-top:20px;
+  margin-left:40px;
+}*/
+.btn1{
+  background-color:#FF9900;
+  font-size:18px;
+  padding:3px;
+  margin-left:550px;
+  margin-top:0.5px;
+  width:160px;
+  height:24px;
+  border:none;
+}
+.heading3{
+  /*background-color:#FF9900 #B1B1B1;*/background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
+ margin-top:25px;
+ height:40px;
+ padding:5px;
+ text-align:center;
+ font-size:25px;
+ font-weight:bold;
+ font-family:'Times New Roman', Times, serif;
+}
+.hiring-partner{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+ 
+}
+
+.hiring-partner-card{
+ margin:40px;
+}
+  
+.service-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.service-card{
+  background-color:#3B3F54;/*032B44 4169E1 3B3F54*/
+  margin-left:20px;
+  margin:40px;
+  height:60px;
+  width:320px;
+  border-radius:10px 12px;
+}
+.service{
+  margin-left:10px;
+  margin-top:12px;
+  margin:12px;
+ 
+}
+.service-text{
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  font-family:'Times New Roman', Times, serif;
+  font-size:20px;
+  margin-top:-45px;
+ 
+  
+
+}
+.service-text{
+  text-align:center;
+}
+.placement-container{
+  /*background-color:#E5E5E5;*/
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.placement-card{
+  background-color:white;
+  margin:25px;
+  width:320px;
+  height:320px;
+  /*border:2px solid black;*/
+  border-radius:10px 12px;
+}
+.placement{
+  margin-left:100px;
+  border:2px solid black;
+  margin-top:20px;
+  margin-bottom:5px;
+  border-radius:50%;
+  background-color:#E5E5E5;
+}
+.placement-text{
+  text-align:center;
+  color:#3B3F54;
+  font-size:17px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+/*.bottom-side{
+  background-image: linear-gradient(to right, rgb(157, 164, 210), rgb(184, 229, 244));
+  background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
+  background-image: linear-gradient(to right, rgb(221, 223, 235), rgb(223, 242, 249));
+  height:auto;
+  width:auto;
+  border-radius:10px 12px;
+} */
+
+/*.placement-text1{
+  background-color:#FFD700;
+ 
+  width:315px;
+  text-align:center;
+  font-size:17px;
+  font-weight:bold;
+}*/
+.logo{
+  margin-top:-35px;
+  margin-left:85px;
+}
+.logo1{
+  margin-top:-5px;
+  margin-left:110px;
+
+}
+
+
+.teacher{
+  /*background-color:#E5E5E5;*/
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.teacher-card{
+  background-color:white;
+  margin:50px;
+  width:320px;
+  height:200px;
+  border:3px solid #3B3F54;
+ border-radius:10px 12px;
+}
+
+.footer{
+  background-color: #3B3F54;
+  color:white;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  font-family:'Times New Roman', Times, serif;
+   font-weight:bold;
+  font-size:20px;
+}
+.contact-info{
+
+ margin:30px;
+}
+
+.para-contact{
+  margin-bottom:15px;
+}
+.para-foot{
+  color:white;
+  margin-left:30px;
+  margin-top:-30px;
+  margin-bottom:10px;
+  text-decoration:none;
+}
+.no-under-line{
+  text-decoration:none;
+  color:white;
+
+
+}
+.quick{
+  margin-bottom:7px;
+}
