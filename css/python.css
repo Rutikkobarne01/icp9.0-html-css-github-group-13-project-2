@@ -1,0 +1,29 @@
+.container3 {
+    margin: 20px;
+    height: auto;
+    /* width: auto; */
+    max-width: 550px;
+    background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
+    border: 1px solid rgb(176, 185, 237);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.heading3 {
+    text-align: center;
+    margin: 4% 0 10px 4%;
+    font-size: 2rem;
+    border: 1px solid rgb(147, 147, 242);
+    border-radius: 10px;
+     /* color: white; */
+    /* background-color: rgb(32, 160, 141); */
+    /* background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220)); */
+    background-image: linear-gradient(to right, rgb(141, 155, 241), rgb(139, 220, 245));
+    color: black;
+}
+
+.paraa {
+    margin: 4% 0 10px 4%;
+    font-size: 1.1rem;
+}
