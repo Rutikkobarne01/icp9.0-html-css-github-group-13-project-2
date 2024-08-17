@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sign up</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        .title {
+
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .sign-card {
+            background-color: beige;
+            width: 400px;
+            height: 620px;
+            border-radius: 5px;
+            border: 1px solid #262626;
+            padding: 20px;
+            display: block;
+            margin: 50px auto;
+        }
+
+        .img {
+            height: 25px;
+            width: 25px;
+            position: relative;
+            top: 6px;
+            display: inline-block;
+        }
+
+        .text {
+            font-size: 12px;
+            padding: 10px;
+            width: 270px;
+            color: #434343;
+            border: 1px solid black;
+        }
+
+        .text-que {
+
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .register-btn {
+            width: 290px;
+            padding: 10px;
+            margin-left: 30px;
+            background-color: #5362c6;
+            color: white;
+            border: 1px solid transparent;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+
+        .create-acc {
+            text-decoration: none;
+            font-size: 17px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sign-card">
+        <form>
+
+            <p class="title"> SIGN UP </p>
+
+            <label for="username" class="text-que">Whats your Username ? <br /> </label><br />
+            <img src="./../icon/user.png" class="img" alt="">
+            <input type="text" placeholder="Username" class="text" id="username" required />
+
+            <br /><br />
+
+            <label for="Email" class="text-que">Whats your E-mail ? <br /> </label><br />
+            <img src="./../icon/email1 - Copy.png" class="img" alt="">
+            <input type="email" placeholder="E-mail" class="text" id="Email" required />
+
+            <br /><br />
+
+            <label for="Password" class="text-que">Your Password ? <br /> </label> <br />
+            <img src="./../icon/pass1.png" class="img" alt="">
+            <input type="password" placeholder="Password" class="text" id="Password" required />
+
+            <br /><br />
+
+            <label for="Confirm Password" class="text-que">Confirm Password ? <br /> </label> <br />
+            <img src="./../icon/word.png" class="img" alt="">
+            <input type="password" placeholder=" Confirm Password" class="text" id="Confirm password" required />
+
+            <br /><br /><br />
+
+
+            <b>Gender :-</b>
+            <input type="radio" name="B" /> Male
+            <input type="radio" name="B" /> Female
+            <input type="radio" name="B" /> Other<br><br>
+
+
+            <button class="register-btn">Start your learning journey</button>
+            <br /><br />
+
+            <a href="login.html" class="create-acc">Login in with your account..?</a>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

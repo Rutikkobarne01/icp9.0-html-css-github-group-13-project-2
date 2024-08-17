@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        .title {
+
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .login-card {
+            background-color: beige;
+            width: 340px;
+            height: 370px;
+            border-radius: 5px;
+            border: 1px solid #262626;
+            padding: 20px;
+            display: block;
+            margin: 50px auto;
+        }
+
+        .img {
+            height: 25px;
+            width: 25px;
+            position: relative;
+            top: 6px;
+            display: inline-block;
+        }
+
+        .text {
+            font-size: 12px;
+            padding: 10px;
+            width: 270px;
+            color: #434343;
+            border: 1px solid black;
+        }
+
+        .text-que {
+
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .login-btn {
+            width: 290px;
+            padding: 10px;
+            margin-left: 30px;
+            background-color: #5362c6;
+            color: white;
+            border: 1px solid transparent;
+            margin-bottom: 20px;
+        }
+
+        .create-acc {
+            text-decoration: none;
+            font-size: 17px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-card">
+        <form>
+
+            <p class="title">LOGIN OR SIGNUP </p>
+
+
+            <label for="inputEmail" class="text-que">Whats your E-mail ? <br /> </label><br />
+            <img src="./../icon/mail.png" class="img" alt="">
+            <input type="email" placeholder="E-mail" class="text" id="inputEmail" required />
+
+            <br /><br />
+
+            <label for="inputPassword" class="text-que">Your Password ? <br /> </label> <br />
+            <img src="./../icon/password.png" class="img" alt="">
+            <input type="password" placeholder="Password" class="text" id="inputPassword" required />
+            <br /><br />
+
+            <button class="login-btn">LOGIN</button>
+            <br /><br />
+
+            <a href="sign.html" class="create-acc">Create an Account...?</a>
+
+        </form>
+    </div>
+</body>
+
+</html>
