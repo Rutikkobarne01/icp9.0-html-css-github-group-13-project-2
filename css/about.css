@@ -1,0 +1,102 @@
+body{
+    background-color: #ccccb3;
+}
+.heading{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.paragraph{
+    font-size: 20px;
+    margin-left: 40px;
+ margin-right:40px;
+}
+.img{
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 550px;
+    width: 1200px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: solid 5px black;
+}
+.header-description-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 650px;
+}
+.paragraph2{
+    font-size: 20px;
+    margin-top:150px;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    padding-left: 25px;
+   
+    margin-right: 20px;
+    
+    
+}
+
+
+.goals{
+    height: 400px;
+    width: 400px;
+   padding-left: 20px;
+   padding-right: 150px;
+   margin-right: 80px;
+   padding-top: 0px;
+    
+}
+.mission{
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    border: solid 10px burlywood;
+}
+.new-heading{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.image-conatiner{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+   width: 100%;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    background-color: #ffffe6;
+    border-radius: 10px;
+}
+
+.discription-first{
+   padding: 10px;
+  height:90px;   
+  width: 600px;
+}
+.card{
+    width: 495px;
+    height: 120px;
+    display: flex;
+    margin:60px;
+}
+.image-1{
+    height: 100px;
+    width: 100px;   
+}
+.link{
+font-size: 40px;
+margin-left: 40px;
+text-decoration: none;
+color:#283e3e;
+}
