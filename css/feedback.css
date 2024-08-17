@@ -37,4 +37,21 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.experience label {
+    margin-right: 15px;
+}
+
+.experience img {
+    width: 40px;
+    cursor: pointer;
+}
 
