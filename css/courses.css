@@ -17,9 +17,9 @@
 }
 
 .btn2:hover{
-  background-color: #3B3F54;
+  background-color: #0078D7;
   color:white;
-  box-shadow: 1px 1px 5px 1px #3B3F54;
+  box-shadow: 1px 1px 5px 1px #0078D7;
   border: 2px white solid  ;
   border-radius: 10px;
   transition: 0.5s;
@@ -137,11 +137,11 @@ border-radius: 20px 20px 0px 0px;
   display: flex; 
 }
 
-.btn1, .btn{
+.btn1{
     height: 40px;
     width: 110px;
     /* background-color: #fffffe; */
-    background-color: #3B3F54;
+    background-color: #0078D7;
     /* background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220)); */
     /* background-image: linear-gradient(to right, rgb(121, 135, 215), rgb(120, 181, 201)); */
     
@@ -160,9 +160,9 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .btn1:hover{
-  background-color: #3B3F54;
+  background-color: #0078D7;
   color:white;
-  box-shadow: 1px 1px 5px 1px #3B3F54;
+  box-shadow: 1px 1px 5px 1px #0078D7;
   border: 2px white solid  ;
   border-radius: 10px;
   transition: 0.5s;
