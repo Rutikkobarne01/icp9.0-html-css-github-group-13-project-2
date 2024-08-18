@@ -13,10 +13,18 @@
     font-size: 20px;
     margin: 30px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-
-    
+    font-family: Arial, Helvetica, sans-serif;   
 }
+
+.btn2:hover{
+  background-color: #3B3F54;
+  color:white;
+  box-shadow: 1px 1px 5px 1px #3B3F54;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
 
 .how{
   background-color: #3B3F54;
@@ -68,8 +76,8 @@ width: 350px;
 padding: 0px;
 /* background-color:#e6e6e6; */
 /* background-image: linear-gradient(to right, rgb(209, 213, 240), rgb(208, 229, 236)); */
-background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
-    
+/* background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240)); */
+  background-color:white;  
 box-shadow: 0px 0px 7px 0px #0f0e17;
 /* border: 5px white solid; */
 border: 5px solid rgb(234, 234, 236);
@@ -151,6 +159,15 @@ border-radius: 20px 20px 0px 0px;
     font-weight: bold;
 }
 
+.btn1:hover{
+  background-color: #3B3F54;
+  color:white;
+  box-shadow: 1px 1px 5px 1px #3B3F54;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
 .btn{
     height: 40px;
     width: 110px;
@@ -168,6 +185,15 @@ border-radius: 20px 20px 0px 0px;
     border-radius: 10px;
     display: inline-block;
     justify-content: center;  
+}
+
+.btn:hover{
+  background-color: orange;
+  color:white;
+  box-shadow: 1px 1px 5px 1px orange;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
 }
  .btnn {
   display: flex;
