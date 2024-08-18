@@ -1,5 +1,5 @@
 body{
-    background-color: #ccccb3;
+    background-color: #fff;
 }
 .heading{
     color: black;
@@ -73,30 +73,57 @@ body{
     
 }
 .icon{
-    height: 100px;
-    width: 100px;
-    background-color: #ffffe6;
+    height: 75px;
+    width: 80px;
+    background-color: #3B3F54;
     border-radius: 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    
+    
 }
 
 .discription-first{
-   padding: 10px;
-  height:90px;   
-  width: 600px;
+  margin-top: 0px;
+  height:100px;   
+  width: 450px;
+  background-color: #3B3F5
+   
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 20px;
+  
 }
 .card{
     width: 495px;
     height: 120px;
     display: flex;
     margin:60px;
+ 
+ 
+ 
 }
 .image-1{
-    height: 100px;
-    width: 100px;   
+    height: 60px;
+    width: 80px; 
+    background-color: #3B3F54;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    
 }
 .link{
 font-size: 40px;
 margin-left: 40px;
 text-decoration: none;
 color:#283e3e;
+}
+.bold{
+color: #000000;
+font-size: 25px;
+padding-top: 10px;
+}
+.highlights{
+    background-color: #a5abc0;
+    border-radius: 5px;
+    padding: auto;
 }
