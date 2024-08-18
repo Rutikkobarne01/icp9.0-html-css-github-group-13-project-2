@@ -30,11 +30,11 @@
   .index {
     font-size: 2em;
     /* color: #fff; */
-<<<<<<< HEAD:css/nav.css
-    color: white;
-=======
-    color: black;
->>>>>>> 87763dbe107b9b4e86a18e997644d06584d9040e:css/styles.css
+     color: #0078d7;
+     font-family: 'Times New Roman', Times, serif;
+    /* color: white;
+    color: black; */
+
     
   }
   
