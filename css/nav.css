@@ -19,7 +19,7 @@
   header {
     /* background-image: linear-gradient(to right, rgb(2, 13, 81), rgb(25, 176, 220)); */
     color:/* #fff;*/white;
-    background-color: #3B3F54;
+    background-color: /*#3B3F54*/ #333333;
    /* padding: 20px 100px;*/
    padding:4px  100px ;
     display: flex;
