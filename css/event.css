@@ -1,9 +1,91 @@
+/* styles.css */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f4ff;
     
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to right, rgb(188, 195, 237), rgb(185, 226, 238)); */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f1f1f1; */
+    /* background-color: rgb(240, 242, 242); */
+    /* background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240)); */
+    /* background: #f8f8f8; */
+    background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238));
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    /* background-image: linear-gradient(to right, rgb(2, 13, 81), rgb(25, 176, 220)); */
+    color:/* #fff;*/white;
+    background-color: #3B3F54;
+   /* padding: 20px 100px;*/
+   padding:4px  100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .index {
+    font-size: 2em;
+    /* color: #fff; */
+
+    color: white;
+
+    
+    
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .position {
+    position: sticky;
+    top: 0.1px;
+  }
+  
+  .navigation a {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    /* color: #fff; */
+    color:/* black;*/white;
+    text-decoration: none;
+    /* font-weight: bold; */
+    margin-left: 40px;
+  }
+  .navigation a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    /* background: #e1acac; */
+    background: rgb(117, 114, 114);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+  }
+  
+  
+  .navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
 
 .main-container {
     
@@ -50,6 +132,15 @@ body {
 
 .stat-item {
     background-color: #0070f3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+}
+
+.stat-item1 {
+    background-color: orange;
     color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -111,9 +202,12 @@ body {
     margin: 5px 0;
     color: #777;
 }
- 
-/*----------------------------------------------------*/
-webinar-container {
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+.webinar-container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -188,7 +282,8 @@ p {
     color: #ffffff;
 }
 
-/*-----------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
 
 .container2 {
     margin-left: 20px;
@@ -281,7 +376,6 @@ p {
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 
-
 .ws-container {
     display: flex;
     justify-content: space-between;
@@ -338,7 +432,9 @@ p {
     line-height: 1.5;
 }
 
-/*------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
 
 .testimonials {
     text-align: center;
@@ -394,4 +490,105 @@ p {
 .testimonial-card h4 {
     font-weight: bold;
     color: #333;
+}
+
+/* Base styles (applies to all devices) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+}
+
+/* Desktop/Laptop styles */
+@media (min-width: 1024px) {
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        background: linear-gradient(90deg, #edf2fc, #e9f0fc);
+        padding: 50px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+    }
+    .hero-content {
+        width: 45%;
+    }
+    .card-container {
+        width: 450px;
+    }
+    .container2, .ws-container {
+        padding: 100px 250px;
+    }
+    .ws-text-section {
+        max-width: 50%;
+    }
+    .ws-feature-section {
+        max-width: 40%;
+    }
+    .testimonial-card {
+        max-width: 300px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .main-container {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .hero-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card-container {
+        width: 100%;
+    }
+    .container2, .ws-container {
+        padding: 50px 100px;
+    }
+    .ws-text-section, .ws-feature-section {
+        max-width: 100%;
+    }
+    .testimonial-card {
+        max-width: 100%;
+    }
+    .webinar-card {
+        max-width: 45%;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .main-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .hero-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card-container {
+        width: 100%;
+    }
+    .container2, .ws-container {
+        padding: 30px 20px;
+    }
+    .ws-text-section, .ws-feature-section {
+        max-width: 100%;
+    }
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial-card {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .webinar-card {
+        max-width: 100%;
+    }
+    .ws-feature-card {
+        margin-bottom: 20px;
+    }
 }
