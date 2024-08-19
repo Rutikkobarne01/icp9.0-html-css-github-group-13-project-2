@@ -285,6 +285,10 @@ margin-left:80px;
   /*border:2px solid black;*/
   border-radius:10px 12px;
 }
+
+.placement-card:hover{
+  border:1px solid #3B3F54;
+}
 .placement{
   margin-left:100px;
   border:2px solid black;
