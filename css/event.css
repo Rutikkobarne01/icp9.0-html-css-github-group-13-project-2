@@ -139,13 +139,14 @@ body {
     min-width: 150px;
 }
 
-.stat-item1 {
-    background-color: orange;
-    color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-width: 150px;
+.org-btn{
+    background-color: #ff9800;
+    cursor: pointer;
+}
+
+.blue-btn{
+    background-color: #007bff;
+    cursor: pointer;
 }
 
 .stat-item h2 {
