@@ -5,11 +5,18 @@
     flex-direction:row;
     justify-content:space-around;
     font-family:'Times New Roman', Times, serif;
-     font-weight:bold;
-    font-size:20px;
+     /*font-weight:bold;*/
+    font-size:1.5em;
+  }
+  .Address{
+    margin-left:10px;
+    margin-top:40px;
+  }
+  .img-address{
+    margin-left:100px;
+    margin-bottom:30px;
   }
   .contact-info{
-  
    margin:30px;
   }
   
