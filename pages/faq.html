@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        .box {
+            background-color: #fef6e4;
+            width: 900px;
+            border-style: groove;
+            border-color: #fce7b5;
+            border-width: 10px;
+            margin: 5px auto;
+            padding: 40px 100px;
+        }
+
+        details {
+            margin: 20px 0;
+        }
+
+        summary {
+            background-color: #ff99c2;
+            border: none;
+            border-top: 6px solid #b30047;
+            padding: 10px;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.5s;
+            box-shadow: 5px 5px 5px 5px #fff;
+            list-style: none;
+        }
+
+        summary:hover {
+            background-color: #ccb3ff;
+            border-radius: 20px;
+        }
+
+        details[open] summary {
+            background-color: #dab3ff;
+        }
+
+        .faq-answer {
+            background-color: #fef6e4;
+            padding: 10px;
+            border-left: 5px solid #b30047;
+            margin-top: 5px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .navigation a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.1em;
+            color: black;
+            text-decoration: none;
+            position: relative;
+            padding: 5px;
+        }
+
+        .navigation a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            height: 3px;
+            background: rgb(117, 114, 114);
+            border-radius: 5px;
+            transform-origin: right;
+            transform: scaleX(0);
+            transition: transform 0.5s;
+        }
+
+        .navigation a:hover::after {
+            transform-origin: left;
+            transform: scaleX(1);
+        }
+    </style>
+</head>
+<body>
+    <header class="position">
+        <img src="./../img/faqs.png" class="img" alt="FAQ Logo" style="display: block; margin: 0 auto; width: 350px;">
+        
+        
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Course</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <div class="box">
+        <details>
+            <summary>Who are these courses suitable for?</summary>
+            <div class="faq-answer">These courses are suitable for students, professionals, and anyone looking to enhance their skills in this field.</div>
+        </details>
+        <details>
+            <summary>What are the prerequisites?</summary>
+            <div class="faq-answer">There are no specific prerequisites; however, basic knowledge of the subject may help you grasp the concepts faster.</div>
+        </details>
+        <details>
+            <summary>How long does the course take to complete?</summary>
+            <div class="faq-answer">The duration of the course varies, but on average, it takes about 3-6 months to complete, depending on your pace.</div>
+        </details>
+        <details>
+            <summary>Will these courses make me job worthy.?</summary>
+            <div class="faq-answer">The duration of the course varies, but on average, it takes about 3-6 months to complete, depending on your pace.</div>
+        </details>
+        <details>
+            <summary>Are internships provided?</summary>
+            <div class="faq-answer">Yes,but depending upon your performance..</div>
+        </details>
+        <details>
+            <summary>What if the PC/Laptop is not suitable for the courses.?</summary>
+            <div class="faq-answer">PC/Laptop is sutiblle for these course ...</div>
+        </details>
+        <details>
+            <summary>How will be my Doubts be solved or cleared..?</summary>
+            <div class="faq-answer">Utlize any avalible resourse provid by the course,and the doubts my be cleared your teaching assistents..</div>
+        </details>
+        <details>
+            <summary>How long does it take for the support team to revert to the doubts..?</summary>
+            <div class="faq-answer">The duration of the course varies, but on average, it takes about 3-6 months to complete, depending on your pace...</div>
+        </details>
+        <details>
+            <summary>Are classes recorded or live..?</summary>
+            <div class="faq-answer">These classes are recorded also live...</div>
+        </details>
+        <details>
+            <summary>how often the recorded videos are provided?</summary>
+            <div class="faq-answer">The duration of the course varies, but on average, it takes about 3-6 months to complete, depending on your pace.</div>
+        </details>
+        <details>
+            <summary>how should i contact to sales team?</summary>
+            <div class="faq-answer">The duration of the course varies, but on average, it takes about 3-6 months to complete, depending on your pace.</div>
+        </details>
+        <details>
+            <summary>how to contact to support team?</summary>
+            <div class="faq-answer">The duration of the course varies, but on average, it takes about 3-6 months to complete, depending on your pace.</div>
+        </details>
+    </div>
+</body>
+</html>

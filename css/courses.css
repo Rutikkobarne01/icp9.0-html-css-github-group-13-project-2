@@ -13,10 +13,18 @@
     font-size: 20px;
     margin: 30px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-
-    
+    font-family: Arial, Helvetica, sans-serif;   
 }
+
+.btn2:hover{
+  background-color: #0078D7;
+  color:white;
+  box-shadow: 1px 1px 5px 1px #0078D7;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
 
 .how{
   background-color: #3B3F54;
@@ -68,9 +76,9 @@ width: 350px;
 padding: 0px;
 /* background-color:#e6e6e6; */
 /* background-image: linear-gradient(to right, rgb(209, 213, 240), rgb(208, 229, 236)); */
-background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
-    
-box-shadow: 5px 5px 10px 5px #0f0e17;
+/* background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240)); */
+  background-color:white;  
+box-shadow: 0px 0px 7px 0px #0f0e17;
 /* border: 5px white solid; */
 border: 5px solid rgb(234, 234, 236);
 border-radius: 20px;
@@ -129,11 +137,11 @@ border-radius: 20px 20px 0px 0px;
   display: flex; 
 }
 
-.btn1, .btn{
+.btn1{
     height: 40px;
     width: 110px;
     /* background-color: #fffffe; */
-    background-color: #3B3F54;
+    background-color: #0078D7;
     /* background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220)); */
     /* background-image: linear-gradient(to right, rgb(121, 135, 215), rgb(120, 181, 201)); */
     
@@ -149,6 +157,15 @@ border-radius: 20px 20px 0px 0px;
     justify-content: center;
     margin: 5px;
     font-weight: bold;
+}
+
+.btn1:hover{
+  background-color: #0078D7;
+  color:white;
+  box-shadow: 1px 1px 5px 1px #0078D7;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 
 .btn{
@@ -168,6 +185,15 @@ border-radius: 20px 20px 0px 0px;
     border-radius: 10px;
     display: inline-block;
     justify-content: center;  
+}
+
+.btn:hover{
+  background-color: orange;
+  color:white;
+  box-shadow: 1px 1px 5px 1px orange;
+  border: 2px white solid  ;
+  border-radius: 10px;
+  transition: 0.5s;
 }
  .btnn {
   display: flex;

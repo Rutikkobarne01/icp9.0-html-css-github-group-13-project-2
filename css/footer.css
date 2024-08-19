@@ -1,0 +1,41 @@
+.footer{
+    background-color: /*#3B3F54*/#333333;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-family:'Times New Roman', Times, serif;
+     /*font-weight:bold;*/
+    font-size:1.5em;
+  }
+  .Address{
+    margin-left:10px;
+    margin-top:40px;
+  }
+  .img-address{
+    margin-left:100px;
+    margin-bottom:30px;
+  }
+  .contact-info{
+   margin:30px;
+  }
+  
+  .para-contact{
+    margin-bottom:15px;
+  }
+  .para-foot{
+    color:white;
+    margin-left:30px;
+    margin-top:-30px;
+    margin-bottom:10px;
+    text-decoration:none;
+  }
+  .no-under-line{
+    text-decoration:none;
+    color:white;
+  
+  
+  }
+  .quick{
+    margin-bottom:7px;
+  }
