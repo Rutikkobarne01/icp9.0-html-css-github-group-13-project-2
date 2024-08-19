@@ -59,7 +59,7 @@ margin-left:80px;
 }
 .heading{
  margin-top:80px;
-  font-size:40px;
+  font-size:38px;
   text-align:justify;
   font-weight:bold;
   margin-left:20px;
@@ -345,7 +345,7 @@ margin-left:80px;
  border-radius:10px 12px;
 }
 
-.footer{
+/*.footer{
   background-color: #3B3F54;
   color:white;
   display:flex;
@@ -378,4 +378,4 @@ margin-left:80px;
 }
 .quick{
   margin-bottom:7px;
-}
+}*/
