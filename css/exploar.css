@@ -50,7 +50,8 @@ padding-left: 100px;
   width: 180px;
   height: 45px;
   margin: 10px 4%;
-  background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220));
+  /* background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220)); */
+  background-color: #0078D7;
   border: none;
   outline: none;
   border-radius: 6px;
@@ -209,7 +210,8 @@ color: #666;
 .btn1 {
   width: 180px;
   height: 45px;
-  background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220));
+  /* background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220)); */
+  background-color: #0078D7;
   border: none;
   outline: none;
   border-radius: 6px;
