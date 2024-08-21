@@ -61,6 +61,11 @@ padding-left: 100px;
   font-weight: 500;
 }
 
+.btn:hover {
+  background-image: linear-gradient(to right, rgb(141, 155, 241), rgb(139, 220, 245));
+  color: black;
+}
+
 .img {
   text-align: center;
   margin-top: 20px;
