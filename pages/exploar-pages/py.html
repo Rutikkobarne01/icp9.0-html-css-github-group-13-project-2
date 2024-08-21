@@ -6,11 +6,57 @@
     <title>Document</title>
     <link rel="stylesheet" href="./../../css/exploar.css" />
     <link rel="stylesheet" href="./../../css/python.css" />
+
+    <style>
+       details {
+            border: 1px solid #9fbdd6;
+            border-radius: 5px;
+            padding: 10px;
+            /* background-color: #f9f9f9; */
+            margin: 10px 0;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: black;
+            padding: 5px;
+            border-bottom: 1px solid #9ac7db;
+            transition: background-color 0.3s ease;
+        }
+
+        summary:hover {
+            /* background-color: #e8f5e9; */
+            /* background-color: rgb(131, 130, 130); */
+            /* background-color: rgb(239, 193, 108); */
+            color: rgb(0, 13, 255);
+        }
+
+        details[open] {
+            border-color: #9ac7db;
+            /* background-color: #e8f5e9; */
+        }
+        
+        details[open] summary {
+            color: black;
+        }
+
+        details p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
+  
     <div class="container1" style="justify-content: center;">
         <div class="container3">
-            <h2 class="heading3">Python Basics</h2>
+          <a href="./../exploar.html">
+             <!--<img src="./icon/undo.png" alt="back to home" height="25px" width="30px">--><button class="btn">Back to Exploar</button>
+          </a>
+          <details>
+            <summary>
+            <h class="heading3">Python Basics</h></summary>
             <p class="paraa">Lecture 1 : Introduction to Python</p>
             <p class="paraa">
               Lecture 2 : Python Objects, Number & Booleans, Strings.
@@ -26,8 +72,11 @@
               Lecture 8 : Break And Continue Statement And Range Function
             </p>
             <p class="paraa">Lecture 9 : python Namespace</p>
-    
-            <h2 class="heading3">Data Types & functions</h2>
+          </details>
+
+          <details>
+            <summary>
+            <h class="heading3">Data Types & functions</h></summary>
             <p class="paraa">Lecture 1 : Basic Data Structure In Python</p>
             <p class="paraa">
                 Lecture 2 : String Object Basics
@@ -49,8 +98,11 @@
             <p class="paraa">Lecture 13 : Generator Functions</p>
             <p class="paraa">Lecture 14 : Lambda Functions</p>
             <p class="paraa">Lecture 15 : Map, Reduce, Filter Functions.</p>
-          
-            <h2 class="heading3">OOPS</h2>
+          </details>
+
+          <details>
+            <summary>
+            <h class="heading3">OOPS</h></summary>
             <p class="paraa">Lecture 1 : OOPS Basic Concepts.</p>
             <p class="paraa">
               Lecture 2 : Creating Classes
@@ -68,9 +120,12 @@
             <p class="paraa">Lecture 9 : Class Methods And Static Methods</p>
             <p class="paraa">Lecture 10 : Special (Magic/Dunder) Methods</p>
             <p class="paraa">Lecture 11 : Property Decorators - Getters, Setters, And Deletes</p>
-          
+          </details>
 
-            <h2 class="heading3">Files & Exceptional Handling</h2>
+
+            <details>
+              <summary>
+            <h class="heading3">Files & Exceptional Handling</h></summary>
             <p class="paraa">Lecture 1 : Working With Files</p>
             <p class="paraa">
               Lecture 2 : Reading And Writing Files
@@ -87,8 +142,10 @@
             </p>
             <p class="paraa">Lecture 9 : List Of General Use Exception</p>
             <p class="paraa">Lecture 10 : Best Practice Exception Handling</p>
-         
-            <h2 class="heading3">Database & Web Api</h2>
+          </details>
+          <details>
+            <summary>
+            <h class="heading3">Database & Web Api</h></summary>
             <p class="paraa">Lecture 1 : Multithreading</p>
             <p class="paraa">
               Lecture 2 : Multiprocessing
@@ -103,8 +160,11 @@
             <p class="paraa">
               Lecture 8 : Restful Services
             </p>
-
-            <h2 class="heading3">Database & Web Api</h2>
+          </details>
+           
+          <details>
+            <summary>
+            <h class="heading3">Database & Web Api</h></summary>
             <p class="paraa">Lecture 1 : Multithreading</p>
             <p class="paraa">
               Lecture 2 : Multiprocessing
@@ -119,8 +179,12 @@
             <p class="paraa">
               Lecture 8 : Restful Services
             </p>
+          </details>
 
-            <h2 class="heading3">Python Libraries</h2>
+          <details>
+            <summary>
+
+            <h class="heading3">Python Libraries</h></summary>
             <p class="paraa">Lecture 1 : Numpy</p>
             <p class="paraa">
               Lecture 2 : Pandas
@@ -132,6 +196,7 @@
             <p class="paraa">Lecture 5 : Plotly</p>
             <p class="paraa">Lecture 6 : Bokeh</p>
           </div>
+        </details>
     
     
     
