@@ -1,0 +1,300 @@
+body{
+  margin:0;
+  padding:0;
+}
+.no-underline{
+  text-decoration:none;
+}
+
+.container{
+ display:flex;
+  /* flex-direction:row; */
+  flex-wrap: wrap;
+ justify-content:center;
+ /* align-items:center; */
+}
+
+.left-side{
+margin-left:80px;
+margin-right:15px;
+/* height: 250px;
+width: 300px; */
+
+
+}
+
+.main {
+  margin-left: -10%;
+}
+
+.margin-right{
+  text-align:center;
+
+}
+.heading{
+ margin-top:80px;
+  font-size:38px;
+  text-align:justify;
+  font-weight:bold;
+  margin-left:20px;
+}
+.for-span{
+  font-family:'Times New Roman', Times, serif;
+  color:black;
+  background-color:/*#E0FFFF,#4CAF50,#8BC34A */#FF9900;
+  
+  
+}
+.para{
+  color:navy;
+  margin-top:10px;
+  margin-left:30px;
+  font-size:25px;
+  font-weight:bold;
+}
+.para1{
+  color:navy;
+  margin-top:15px;
+  margin-left:90px;
+  font-size:22px;
+  font-weight:bold;
+}
+.Enroll-btn{
+  background-color:/*#87CEEB #4CAF50,#8BC34A #FF9900 #3B3F54*/#0078D7;
+  color:white;
+  font-size:25px;
+  margin-left:120px;
+  margin-top:20px;
+  width:180px;
+  height:40px;
+  border:none;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  border-radius:10px 12px;
+  /*-shadow:0 0 10px black;*/
+}
+.Enroll-btn:hover{
+  background-color:#8F2C9F;
+
+
+}
+
+
+.Job-Oriented-Domains{
+  /* background-color:#E5E5E5;*/
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   flex-wrap:wrap;
+   
+ }
+
+.card1{
+  background-color:white;
+    width: 160px;
+    height: 160px;
+    margin: 2% 20px;
+    border: 2px solid black;
+    border-radius: 10px 12px;
+ 
+}
+.picture1{
+ margin-top:20px;
+  margin-left:40px;
+  
+  }
+  .text1{
+    margin-top:3px;
+    text-align:center;
+    
+    
+  }
+  .no-underline{
+    text-decoration:none;
+  }
+  .para-explore{
+    margin-top:2px;
+    text-align:center;
+  }
+
+.heading3{
+  /*background-color:#FF9900 #B1B1B1;*/background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
+ margin-top:25px;
+ height:40px;
+ padding:5px;
+ text-align:center;
+ font-size:25px;
+ font-weight:bold;
+ font-family:'Times New Roman', Times, serif;
+}
+.hiring-partner{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+ 
+}
+
+.hiring-partner-card{ 
+ margin:40px;
+
+}
+.hiring-partner-card1{
+  background-color:white;
+  width:280px;
+  height:200px;
+  border-radius:10px 12px;
+  box-shadow:0 0 10px #0078D7;
+}
+.hiring-partner-card1:hover{
+  border:1px solid black;
+
+}
+.image-card{
+  margin-left:70px;
+  margin-top:30px;
+ 
+}
+  
+.service-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  /*align-items:center;*/
+  flex-wrap:wrap;
+}
+.service-card{
+  background-color:/*#3B3F54 032B44 4169E1 3B3F54*/#0078D7;
+  margin-left:20px;
+  margin:40px;
+  height:60px;
+  width:320px;
+  border-radius:10px 12px;
+}
+.service{
+  margin-left:5px;
+  margin-top:12px;
+  margin:12px;
+ 
+}
+
+.service-text{
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  font-family:'Times New Roman', Times, serif;
+  font-size:20px;
+  margin-top:-45px;
+  margin-left:-30px;
+}
+.service-text1{
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  font-family:'Times New Roman', Times, serif;
+  font-size:20px;
+  margin-top:-45px;
+  margin-left:25px;
+
+}
+.service-text{
+  text-align:center;
+}
+.placement-container{
+  /*background-color:#E5E5E5;*/
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.placement-card{
+  background-color:white;
+  margin:25px;
+  width:320px;
+  height:320px;
+  /*border:2px solid black;*/
+  border-radius:10px 12px;
+}
+
+.placement-card:hover{
+  border:2px solid #0078D7;
+}
+.placement{
+  margin-left:100px;
+  border:2px solid #0078D7;
+  margin-top:20px;
+  margin-bottom:5px;
+  border-radius:50%;
+  background-color:#E5E5E5;
+}
+.placement-text{
+  text-align:center;
+  color:#0078D7;
+  font-size:17px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+
+.logo{
+  margin-top:-35px;
+  margin-left:85px;
+}
+.logo1{
+  margin-top:-5px;
+  margin-left:110px;
+
+}
+
+
+.teacher{
+  /*background-color:#E5E5E5;*/
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.teacher-card{
+  background-color:white;
+  margin:50px;
+  width:300px;
+  height:220px;
+  border:3px solid #0078D7;
+ border-radius:10px 12px;
+}
+.placement1{
+  width:40px;
+  height:40px;
+  margin-left:120px;
+    margin-top:-5px;
+  margin-bottom:5px;
+  border-radius:50%;
+ 
+}
+
+   @media only screen and (min-width: 1024px) and (max-width: 1680px) {
+    /* Styles for laptops */
+
+    .card1{
+      margin:50px;
+    }
+    
+    .para{
+      margin-top:15px;
+      font-size:30px;
+    
+    }
+    .para1{
+      margin-top:20px;
+     font-size:25px;
+
+    }
+    .Enroll-btn{
+      margin-top:25px;
+
+    }
+
+
+  }
+  
