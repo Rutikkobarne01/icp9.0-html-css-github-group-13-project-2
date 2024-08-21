@@ -8,8 +8,11 @@
 
   **Above home page show the   Courses And Login option show   in the  navigation bar you will click the Courses option  you will redirect to the  our course page and also you click to  the login option  you will redirect to the login page**
 
+  # 2 Course page
+  ![Course page screenshot](./img/Course.jpeg)
 
-**you will go to the course  page  and in that page you will two option  first is course explore and  second i s course buying option you will click the course explore page you are able to see overall information about the course.and also you will click the course buy option you are  enroll  to that particular course**
+
+**you will above  go to the course page and in that page you will two option first is course explore and second i s course buying option you will click the course explore page you are able to see overall information about the course.and also you will click the course buy option you are enroll to that particular course**
 
 
 **In this project our team uses HTML and CSS technology for deveoping  this project**
