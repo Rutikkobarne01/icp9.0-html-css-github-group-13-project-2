@@ -1,13 +1,13 @@
-.footer{
-  background-color: /*#3B3F54*/#333333;
- color:white;
-  display:flex;
+/*.footer{
+  background-color: /*#3B3F54*//*#333333;
+/* color:white;
+ /* display:flex;
 /* flex-direction:row;*/
-  justify-content:space-evenly;
+ /* justify-content:space-evenly;
   font-family:'Times New Roman', Times, serif;
    /*font-weight:bold;
-  font-size:1.5em;*/
-}
+  font-size:1.5em;
+}*/
 .Address{
   margin-left:10px;
   margin-top:40px;
@@ -63,12 +63,23 @@
 
    @media only screen and (min-width: 1024px) and (max-width: 1680px) {
     /* Styles for laptops */
+    .footer{
+      background-color: /*#3B3F54*/#333333;
+     color:white;
+      display:flex;
+    flex-direction:row;
+     justify-content:space-evenly;
+      font-family:'Times New Roman', Times, serif;
+       /*font-weight:bold;
+      font-size:1.5em;*/
+    }
     .img-address{
-      margin-left:75px;
+      margin-left:125px;
     }
     .para-foot1{
       font-size:25px;
-      margin-top:-5px;
+      margin-top:-150px;
+      margin:55px;
     }
     .image-contact1{
       margin-left:30px;
