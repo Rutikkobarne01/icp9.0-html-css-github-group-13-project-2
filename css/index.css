@@ -2,47 +2,10 @@ body{
   margin:0;
   padding:0;
 }
-/*.text{
-  background-color:#B2E6CE;
-  text-align:right;
-  font-size:20px;
-  font-weight:bold;
-}*/
 .no-underline{
   text-decoration:none;
 }
-/*.main{
-  margin-top:50px;
-  margin-left:-90px;
-}*/
-/*.image1{
-  border:2px solid black;
-  margin-left:-110px;
-  margin-top:30px;
-  box-shadow:0 0 10px #45A0E6;
-  display:block;
- 
-}
-  
-.image2{
-  border:2px solid red;
-  margin-top:15px;
-  margin-left:-220px;
-  border:2px solid black;
-  box-shadow:0 0 10px #45A0E6;
- 
-}
-.image3{
-  border:2px solid black;
-  margin-left:15px;
-  box-shadow:0 0 10px #45A0E6;
-}
-.image4{
-  border:2px solid black;
-  margin-left:-110px;
-  margin-top:10px;
-  box-shadow:0 0 10px #45A0E6;
-}*/
+
 .container{
  display:flex;
   /* flex-direction:row; */
@@ -116,16 +79,7 @@ width: 300px; */
 
 }
 
-/*.heading2{
-   /*background-color:#FF9900 #B1B1B1 background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));;
-  margin-top:50px;
-  height:40px;
-  padding:5px;
-  text-align:center;
-  font-size:25px;
-  font-weight:bold;
-  font-family:'Times New Roman', Times, serif;
-}*/
+
 .Job-Oriented-Domains{
   /* background-color:#E5E5E5;*/
    display:flex;
@@ -142,16 +96,7 @@ width: 300px; */
     margin: 2% 20px;
     border: 2px solid black;
     border-radius: 10px 12px;
-  /*background-color:white;
-  width:160px;
-  height:160px;
-  margin-left:20px;
-  margin-top:20px;
-  margin:20px;
-  /*margin:4% 20px;
-  border:2px solid white;
-  border:2px solid black;
-  border-radius:10px 12px;*/
+ 
 }
 .picture1{
  margin-top:20px;
@@ -171,57 +116,6 @@ width: 300px; */
     margin-top:2px;
     text-align:center;
   }
-/*
-.card2{
-  background-color:white;
-  width:160px;
-  height:160px;
-  margin-left:20px;
-  margin-top:20px;
-  margin:15px;
-  border:2px solid white;
-  border:2px solid black;
-  border-radius:10px 12px;
-}
-
-.picture2{
-  margin-top:20px;
-  margin-left:45px;
-  
-
-
-.card3{
-  background-color:white;
-  width:160px;
-  height:160px;
-  margin-left:20px;
-  margin-top:20px;
-  margin:15px;
-  border:2px solid white;
-  border:2px solid black;
-  border-radius:10px 12px;
-}
-/*
-.picture3{
-  margin-top:20px;
-  margin-left:40px;
-}
-.card4{
-  background-color:white;
-  width:160px;
-  height:160px;
-  margin-left:20px;
-  margin-top:20px;
-  margin:15px;
-  border:2px solid white;
-  border:2px solid black;
-  border-radius:10px 12px;
-}
-/*
-.picture4{
-  margin-top:20px;
-  margin-left:40px;
-}*/
 
 .heading3{
   /*background-color:#FF9900 #B1B1B1;*/background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
@@ -341,23 +235,7 @@ width: 300px; */
   margin-bottom:10px;
   font-weight:bold;
 }
-/*.bottom-side{
-  background-image: linear-gradient(to right, rgb(157, 164, 210), rgb(184, 229, 244));
-  background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
-  background-image: linear-gradient(to right, rgb(221, 223, 235), rgb(223, 242, 249));
-  height:auto;
-  width:auto;
-  border-radius:10px 12px;
-} */
 
-/*.placement-text1{
-  background-color:#FFD700;
- 
-  width:315px;
-  text-align:center;
-  font-size:17px;
-  font-weight:bold;
-}*/
 .logo{
   margin-top:-35px;
   margin-left:85px;
@@ -395,92 +273,6 @@ width: 300px; */
  
 }
 
-/*.footer{
-  background-color: #3B3F54;
-  color:white;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-around;
-  font-family:'Times New Roman', Times, serif;
-   font-weight:bold;
-  font-size:20px;
-}
-.contact-info{
-
- margin:30px;
-}
-
-.para-contact{
-  margin-bottom:15px;
-}
-.para-foot{
-  color:white;
-  margin-left:30px;
-  margin-top:-30px;
-  margin-bottom:10px;
-  text-decoration:none;
-}
-.no-under-line{
-  text-decoration:none;
-  color:white;
-
-
-}
-.quick{
-  margin-bottom:7px;
-}*/
-
-/* @media only screen and (min-width: 320px) and (max-width: 768px) { */
-  /* Styles for smartphones */
-  /* .container{ */
-   /*display:flex !important;*/
-     /* flex-direction:column !important; */
-    /* align-items:center;*/
-     /* justify-content:center !important;
-     align-items:center;
-     
-   }
-   .main{
-    width:800px;
-   }
-    
-    
-   }
-  .left-side{
-    
-    width:500px;
-  
-   
-  }
-  .right-side{
-  
-   
-  }
-  .para{
-    margin-left:300px;
-  }
-  .Enroll-btn{
-    /*margin-left:100%*/
-    /* margin:0 auto !important;
-  
-  }
-  }
-   }
-
-  
-   */
-
-   /*@media screen and (max-width: 500px) {
-    .left-side{
-      margin-left: -100px;
-      
-    } 
-    
-    /* .main {
-      margin-left: -50%;
-    } */
-    
-  
    @media only screen and (min-width: 1024px) and (max-width: 1680px) {
     /* Styles for laptops */
 
