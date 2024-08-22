@@ -61,13 +61,14 @@
     margin:30px !important;
    }
    
+   
    }
 
    @media only screen and (min-width: 1024px) and (max-width: 1680px) {
     /* Styles for laptops */
     .footer{
-      background-color: /*#3B3F54*/#333333;
-      color:white;
+     /* background-color: /*#3B3F54*/ /*#333333;
+      color:white;*/
       display:flex;
      flex-direction:row;
      justify-content:space-evenly;
@@ -76,12 +77,11 @@
       font-size:1.5em;*/
     }
     .img-address{
-      margin-left:125px;
+      margin-left:80px;
     }
     .para-foot1{
       font-size:25px;
-      margin-top:-150px;
-      margin:55px;
+      margin-top:-15px;
     }
     .image-contact1{
       margin-left:30px;
