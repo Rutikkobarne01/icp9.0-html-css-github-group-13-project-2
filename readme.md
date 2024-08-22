@@ -1,6 +1,6 @@
-In this project our team develop a online coaching website. This website help you learn new things and and enroll new courses .
+**In this project our team develop a online coaching website. This website help you learn new things and and enroll new courses.**
 
-When any user visit  our site that user see our home page and in that home  page user will see the some facility of our insistitute and some other feauters 
+**When any user visit  our site that user see our home page and in that home  page user will see the some facility of our insistitute and some other feauters**
 
 # 1 Home page
 
@@ -20,7 +20,7 @@ When any user visit  our site that user see our home page and in that home  page
 
 - Contributor in that project
    
-   
+
 
 
 
