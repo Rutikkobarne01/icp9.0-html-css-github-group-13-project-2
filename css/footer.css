@@ -2,7 +2,7 @@
   background-color: /*#3B3F54*/#333333;
  color:white;
   display:flex;
- /*flex-direction:row;*/
+/* flex-direction:row;*/
   justify-content:space-evenly;
   font-family:'Times New Roman', Times, serif;
    /*font-weight:bold;
@@ -49,9 +49,9 @@
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   /* Styles for smartphones */
  .footer {
-    display: flex !important;
+   display: flex !important;
     flex-direction: column !important;
-    justify-content:center;
+    /*justify-content:start;
     flex-wrap:wrap;
     /*align-items:;*/
   }
