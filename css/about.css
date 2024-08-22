@@ -22,18 +22,15 @@ body{
 }
 .header-description-container{
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    height: 650px;
+    
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 50px;
+   flex-wrap: wrap;
 }
 .paragraph2{
     font-size: 20px;
-    margin-top:150px;
-    margin-bottom: 190px;
-    padding-top: 50px;
-    padding-left: 25px;
-   
-    margin-right: 20px;
+   width: 500px;
     
     
 }
