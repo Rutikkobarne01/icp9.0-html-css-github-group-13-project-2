@@ -22,18 +22,15 @@ body{
 }
 .header-description-container{
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    height: 650px;
+    
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 50px;
+   flex-wrap: wrap;
 }
 .paragraph2{
     font-size: 20px;
-    margin-top:150px;
-    margin-bottom: 190px;
-    padding-top: 50px;
-    padding-left: 25px;
-   
-    margin-right: 20px;
+   width: 500px;
     
     
 }
@@ -46,6 +43,7 @@ body{
    padding-right: 150px;
    margin-right: 80px;
    padding-top: 0px;
+   border-radius: 30px;
     
 }
 .mission{
@@ -53,7 +51,7 @@ body{
     height: 400px;
     width: 600px;
     border-radius: 10px;
-    border: solid 10px burlywood;
+    border: solid 10px   #3B3F54;
 }
 .new-heading{
     color: black;
@@ -75,7 +73,7 @@ body{
 .icon{
     height: 75px;
     width: 80px;
-    background-color: #3B3F54;
+    background-color:#c3c7d5;
     border-radius: 10px;
     padding-bottom: 0px;
     padding-top: 10px;
@@ -87,8 +85,6 @@ body{
   margin-top: 0px;
   height:100px;   
   width: 450px;
-  background-color: #3B3F5
-   
   padding-top: 10px;
   padding-left: 10px;
   margin-left: 20px;
@@ -106,12 +102,13 @@ body{
 .image-1{
     height: 60px;
     width: 80px; 
-    background-color: #3B3F54;
+    background-color:#c3c7d5 ;
     padding-bottom: 0px;
     border-radius: 10px;
     
 }
 .link{
+    margin-top: 30px;
 font-size: 40px;
 margin-left: 40px;
 text-decoration: none;
@@ -125,5 +122,19 @@ padding-top: 10px;
 .highlights{
     background-color: #a5abc0;
     border-radius: 5px;
-    padding: auto;
+    padding: auto; 
+}
+.click{
+    height: 50px;
+    width: 50px;
+    background-color: #c3c7d5;
+    border-radius: 50%;
+    border: solid 3px #15171e ;
+    margin-top: 30px;
+}
+.service{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
 }
